@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "welcome-user-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/welcomeUser/WelcomeUserWebPart.js",
+          "manifest": "./src/webparts/welcomeUser/WelcomeUserWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "WelcomeUserWebPartStrings": "lib/webparts/welcomeUser/loc/{locale}.js"
+  }
+}

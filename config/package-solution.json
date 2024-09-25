@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "welcomeuser-client-side-solution",
+    "id": "ac3fdd33-87de-4c42-acb9-82b150071136",
+    "version": "1.1.2.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Welcome User Web Part"
+      },
+      "longDescription": {
+        "default": "This webpart welcomes the current user, diplays a message after the welcome, and has a call to action button on the right."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "welcomeuser Feature",
+        "description": "The feature that activates elements of the welcomeuser solution.",
+        "id": "5a99d770-11d8-496c-90b8-3067b144469c",
+        "version": "1.1.2.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/welcomeuser.sppkg"
+  }
+}
